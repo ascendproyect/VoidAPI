@@ -122,4 +122,12 @@ public class VoidAPI {
     public void removeVanish(Player player) {
         throw new IllegalPluginAccessException("VoidAPI was not found");
     }
+    
+    public boolean isInSpawn(Player player) { 
+        throw new IllegalPluginAccessException("VoidAPI was not found");
+    }
+
+    public String getClaimFactionName(Player player, String faction_name) {
+        throw new IllegalPluginAccessException("VoidAPI was not found");
+    }
 }
