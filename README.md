@@ -39,4 +39,6 @@ public void giveStaffMode(Player player)
 public void removeStaffMode(Player player)
 public void giveVanish(Player player)
 public void removeVanish(Player player)
+public boolean isInSpawn(Player player)
+public String getClaimFactionName(Player player, String faction_name)
 ```
