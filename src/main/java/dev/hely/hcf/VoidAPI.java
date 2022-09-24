@@ -130,4 +130,8 @@ public class VoidAPI {
     public String getClaimFactionName(Player player, String faction_name) {
         throw new IllegalPluginAccessException("VoidAPI was not found");
     }
+
+    public boolean isInOwnClaim(Player player, String faction_name) {
+        throw new IllegalPluginAccessException("VoidAPI was not found");
+    }
 }

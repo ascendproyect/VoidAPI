@@ -41,4 +41,5 @@ public void giveVanish(Player player)
 public void removeVanish(Player player)
 public boolean isInSpawn(Player player)
 public String getClaimFactionName(Player player, String faction_name)
+public boolean isInOwnClaim(Player player, String faction_name)
 ```
